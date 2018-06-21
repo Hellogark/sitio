@@ -65,13 +65,7 @@ function currPos(position) {
 
     }
 
-    function setMarkerPosition(marker, position) {
-        marker.setPosition(
-            new google.maps.LatLng(
-                position.coords.latitude,
-                position.coords.longitude)
-        );
-    }
+
 
     var options = {
         enableHighAccuracy: true,
