@@ -25,20 +25,22 @@
 
 <div id="map" ></div>
 <div class="container">
-    <div class ="row">
+    <div class ="row h-100 justify-content-center align-items-center">
+        <div>
+            <img src="res/goLocation.png" id="currLoc" onclick="centrar()">
+        </div>
         <div class="col-lg-12">
-    <form id="localizacion">
-
-    <input id="direccion" type="text" class="form-control form-control-md">
-        <br>
-    <button id="map-address-btn" type="submit" class="btn btn-primary btn-block" value="encode" > Enviar</button>
-        <div class="card-block" id="formatted-address"></div>
-        <div class="card-block" id="address-components"></div>
-        <div class="card-block" id="geometry"></div>
-    </form>
+            <form id="localizacion">
+            <input id="direccion" type="text" class="form-control form-control-md">
+                <br>
+            <button id="map-address-btn" type="submit" class="btn btn-primary btn-block" value="encode" > Enviar</button>
+                <div class="card-block" id="formatted-address"></div>
+                <div class="card-block" id="address-components"></div>
+                <div class="card-block" id="geometry"></div>
+            </form>
         </div>
     </div>
-    <div class="row h-100 justify-content-center align-items-center"  id="columna">
+    <div class="row h-100 justify-content-center align-items-center" id="columna">
         <div class="col-sm-6 " >
             <div class="card" id="carta">
                 <img src="" id="imagen">

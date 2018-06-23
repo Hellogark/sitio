@@ -1,7 +1,7 @@
 #map {
     height: 400px;
     width:100%;
-    margin-bottom: 3em;
+   margin-bottom: 0.5em;
 }
 #columna{
     float: none;
@@ -10,7 +10,12 @@
 .titulo{
     text-align: center;
 }
+#currLoc{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 1em;
 
+}
 
 
 @media screen
