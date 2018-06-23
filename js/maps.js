@@ -201,10 +201,7 @@ function geocode(geocoder,latitud,longitud) {
         $('#carta').show();
     }
 function centrar() {
-        if(miLatlng==0;){
-
-        }
-map.setCenter(miLatlng);
+     map.setCenter(miLatlng);
 
 }
 
